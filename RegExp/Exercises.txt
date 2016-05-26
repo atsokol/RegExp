@@ -1,0 +1,25 @@
+# http://regexone.com/problem/matching_decimal_numbers
+
+#Ex 1
+^-?\d+(,\d+)?(\.\d+)?(e\d+)?$
+
+#Ex 2
+(\d+)?.?(\d{3}).?\d{3}.?\d{4}
+
+#Ex 3
+^([\w\.]+)
+
+#Ex 4
+<(\w+)
+
+#Ex 5
+^(\w+)\.(jpg|png|gif)$
+
+#Ex 6
+^\s*(.*)\s*$
+
+#Ex 7
+
+
+#Ex 8
+^^(\w+)://([\w\.\-]*)(:(\d+))?/
